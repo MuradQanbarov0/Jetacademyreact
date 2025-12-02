@@ -2,6 +2,14 @@ import React from "react";
 import "./Navbar.css";
 
 function Navbar() {
+  const navLinks = [
+    { text: "Ana Səhifə", href: "#" },
+    { text: "Haqqımızda", href: "#" },
+    { text: "Tədris Sahələri", href: "#" },
+    { text: "Kampaniyalar", href: "#" },
+    { text: "Əlaqə", href: "#" },
+  ];
+
   return (
     <nav className="navbar">
       <div className="navbar-logo">
@@ -9,21 +17,11 @@ function Navbar() {
       </div>
 
       <div className="navbar-links">
-        <a href="#" className="nav-link">
-          Ana Səhifə
-        </a>
-        <a href="#" className="nav-link">
-          Haqqımızda
-        </a>
-        <a href="#" className="nav-link">
-          Tədris Sahələri
-        </a>
-        <a href="#" className="nav-link">
-          Kampaniyalar
-        </a>
-        <a href="#" className="nav-link">
-          Əlaqə
-        </a>
+        {navLinks.map((link, index) => (
+          <a key={index} href={link.href} className="nav-link">
+            {link.text}
+          </a>
+        ))}
       </div>
 
       <button className="call-button">
