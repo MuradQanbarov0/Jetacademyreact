@@ -1,0 +1,101 @@
+.hero-main {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 40px;
+}
+
+.hero-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hashtag-button {
+    background-color: white;
+    color: #100cfe;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: fit-content;
+}
+
+.emoji {
+    font-size: 18px;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #111827;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.highlight {
+    color: #100cfe;
+}
+
+.hero-description {
+    color: #A8A8A8;
+    font-size: 18px;
+    line-height: 1.7;
+    font-weight: 500;
+}
+
+.hero-button-link {
+    text-decoration: none;
+}
+
+.hero-button {
+    background-color: #100cfe;
+    color: white;
+    padding: 15px 32px;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 4px 12px rgba(252, 174, 30, 0.3);
+}
+
+.arrow {
+    font-size: 20px;
+}
+
+.hero-image-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.placeholder-box {
+    width: 500px;
+    height: 500px;
+    background-color: #f3f4f6;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #9ca3af;
+}
