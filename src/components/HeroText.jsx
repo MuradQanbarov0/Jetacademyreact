@@ -1,6 +1,6 @@
 import React from "react";
 
-function HeroText({ links }) {
+function HeroText({ links = [] }) {
   return (
     <div className="hero-text">
       <button className="hashtag-button">
@@ -25,14 +25,15 @@ function HeroText({ links }) {
         ilhamverici etməkdir.
       </p>
 
-      {links.map((link, index) => (
-        <a key={index} href={link.href} className="hero-button-link">
-          <button className="hero-button">
-            {link.text}
-            <span className="arrow">{link.arrow}</span>
-          </button>
-        </a>
-      ))}
+      {links &&
+        links.map((link, index) => (
+          <a key={index} href={link.href} className="hero-button-link">
+            <button className="hero-button">
+              {link.text}
+              <span className="arrow">{link.arrow}</span>
+            </button>
+          </a>
+        ))}
     </div>
   );
 }
