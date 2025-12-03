@@ -7,7 +7,7 @@ const coursesData = [
         duration: "5 ay",
         bgColor: "#F4F97D",
         image: "", // Buraya şəkil linki əlavə et
-        tags: ["html", "css", "javascript", "typescript", "react.js", "next.js", "tailwind", "git", "mongo db",],
+        tags: ["html", "css", "javascript", "typescript", "react.js", "next.js", "tailwind", "git",],
     },
     {
         id: 2,
