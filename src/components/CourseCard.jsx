@@ -21,7 +21,7 @@ const CourseCard = ({
         {image ? (
           <img src={image} alt={title} className="course-image" />
         ) : (
-          <span className="course-image-text">Şəkil buraya</span>
+          <span className="course-image-text"></span>
         )}
       </div>
 

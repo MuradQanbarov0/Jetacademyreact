@@ -4,8 +4,8 @@
     border-radius: 20px;
     padding: 24px;
     height: 100%;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: 4, 1fr;
 }
 
 .course-title {

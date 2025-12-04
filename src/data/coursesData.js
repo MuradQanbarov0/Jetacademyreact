@@ -1,3 +1,13 @@
+import Frontend from "../assets/Frontend.webp";
+import FullStack from "../assets/FulStack.webp";
+import Python from "../assets/PythonDevop.webp";
+import Java from "../assets/JavaBackend.webp";
+import ItHelpDesk from "../assets/HelpDesk.webp";
+import CyberSecurity from '../assets/CyberSecurity.webp'
+import OfisProqramları from '../assets/OfisProqramları.webp'
+import PraktikiKompüter from '../assets/PraktikiKompüter.webp'
+import İngilisdilikursu from '../assets/İngilisdilikursu.webp'
+import DataAnalitika from '../assets/DataAnalitika.webp'
 const coursesData = [
     {
         id: 1,
@@ -6,7 +16,7 @@ const coursesData = [
         weeksPerWeek: 2,
         duration: "5 ay",
         bgColor: "#F4F97D",
-        image: "", // Buraya şəkil linki əlavə et
+        image: Frontend,
         tags: ["html", "css", "javascript", "typescript", "react.js", "next.js", "tailwind", "git",],
     },
     {
@@ -16,7 +26,7 @@ const coursesData = [
         weeksPerWeek: 2,
         duration: "7 ay",
         bgColor: "#E9B8E5",
-        image: "", // Buraya şəkil linki əlavə et
+        image: FullStack,
         tags: [
             "javascript",
             "typescript",
@@ -35,7 +45,7 @@ const coursesData = [
         weeksPerWeek: 2,
         duration: "6 ay",
         bgColor: "#A8E6B7",
-        image: "", // Buraya şəkil linki əlavə et
+        image: Python,
         tags: ["django", "rabbitmq", "celery", "api", "ai", "redis", "postgresql"],
     },
     {
@@ -46,7 +56,7 @@ const coursesData = [
         weeksPerWeek: 2,
         duration: "6 ay",
         bgColor: "#F5B8A8",
-        image: "", // Buraya şəkil linki əlavə et
+        image: Java,
         tags: ["spring boot", "apache kafka", "postgresql", "redis", "rabbitmq"],
     },
     {
@@ -56,7 +66,7 @@ const coursesData = [
         weeksPerWeek: 2,
         duration: "4 ay",
         bgColor: "#B8E3F5",
-        image: "", // Buraya şəkil linki əlavə et
+        image: ItHelpDesk,
         tags: [
             "əməliyyat sistemləri",
             "troubleshooting",
@@ -71,7 +81,7 @@ const coursesData = [
         weeksPerWeek: 2,
         duration: "6 ay",
         bgColor: "#E8A8A8",
-        image: "", // Buraya şəkil linki əlavə et
+        image: CyberSecurity,
         tags: ["klassik", "etik haking", "pentest", "şəbəkə", "vulnerabilty"],
     },
     {
@@ -81,7 +91,7 @@ const coursesData = [
         weeksPerWeek: 2,
         duration: "2 ay",
         bgColor: "#F5D8B8",
-        image: "", // Buraya şəkil linki əlavə et
+        image: OfisProqramları,
         tags: ["word", "microsoft excel", "microsoft power point", "outlook"],
     },
     {
@@ -91,7 +101,7 @@ const coursesData = [
         weeksPerWeek: 2,
         duration: "2 ay",
         bgColor: "#B8F5D8",
-        image: "", // Buraya şəkil linki əlavə et
+        image: PraktikiKompüter,
         tags: ["proqram təminatı", "əməliyyat sistemi", "editor", "canva", "gmail"],
     },
     {
@@ -101,7 +111,7 @@ const coursesData = [
         weeksPerWeek: 2,
         duration: "6 ay",
         bgColor: "#B8F5F0",
-        image: "", // Buraya şəkil linki əlavə et
+        image: İngilisdilikursu,
         tags: ["general english", "pre-ielts", "grammar", "speaking", "writing"],
     },
     {
@@ -111,7 +121,7 @@ const coursesData = [
         weeksPerWeek: 2,
         duration: "4 ay",
         bgColor: "#E9B8E5",
-        image: "", // Buraya şəkil linki əlavə et
+        image: DataAnalitika,
         tags: ["python", "sql", "power bi", "excel", "statistika", "data"],
     },
 ];
