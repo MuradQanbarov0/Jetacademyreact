@@ -2,7 +2,6 @@ import React from "react";
 import CourseCard from "./CourseCard";
 import coursesData from "../data/coursesData";
 
-// Ana komponent
 const MainCourses = () => {
   return (
     <div style={{ padding: "40px", maxWidth: "1200px", margin: "0 auto" }}>
