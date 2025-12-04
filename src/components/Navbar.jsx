@@ -25,7 +25,7 @@ function Navbar() {
       </div>
 
       <button className="call-button">
-        <img src="../assets/call.png" alt="" /> Zəng sifarişi
+        <img src="w" alt="" /> Zəng sifarişi
       </button>
     </nav>
   );
