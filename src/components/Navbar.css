@@ -1,50 +1,76 @@
 .navbar {
-    padding: 20px 40px;
+    padding: 16px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .navbar-logo {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 12px;
 }
 
 .logo-box {
-    background-color: #1560bd;
+    background: linear-gradient(135deg, #1560bd 0%, #0d47a1 100%);
     color: white;
-    padding: 8px 15px;
-    font-weight: bold;
-    font-size: 18px;
-    border-radius: 4px;
+    padding: 10px 16px;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 8px;
+    letter-spacing: 0.5px;
 }
 
 .logo-text {
     color: #1560bd;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 18px;
 }
 
 .navbar-links {
     display: flex;
-    gap: 30px;
+    gap: 40px;
     align-items: center;
 }
 
 .nav-link {
-    color: #374151;
+    color: #4b5563;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #1560bd;
 }
 
 .call-button {
-    background-color: #1560bd;
+    background: linear-gradient(135deg, #1560bd 0%, #0d47a1 100%);
     color: white;
-    padding: 12px 24px;
+    padding: 10px 24px;
     border-radius: 25px;
     border: none;
     cursor: pointer;
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 4px 12px rgba(21, 96, 189, 0.3);
+    transition: all 0.3s ease;
+}
+
+.call-button:hover {
+    box-shadow: 0 6px 16px rgba(21, 96, 189, 0.4);
+}
+
+.call-button img {
+    width: 18px;
+    height: 18px;
 }

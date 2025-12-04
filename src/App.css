@@ -1,4 +1,6 @@
 .app {
-  background-color: white;
+  background: linear-gradient(135deg, #ffffff 0%, #f9fafb 100%);
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
